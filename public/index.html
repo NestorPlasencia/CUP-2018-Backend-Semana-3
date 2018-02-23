@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CoreUpgrade 2018</title>
+</head>
+<body>
+    <h1>Bienvenido al CoreUpgrade</h1>
+
+    <h2>Ingresa los datos del libro</h2>
+
+    <form action = "http://localhost:3000/books" method = "POST">
+        Nombre del libro: <input type = "text" name = "libro"> <br>
+        Autor del libro: <input type = "text" name = "autor"> <br>
+        Fecha de préstamo: <input type = "date" name = "fecha"> <br>
+		Número de páginas: <input type = "number" name = "nro_paginas"> <br>
+		Fecha de devolución: <input type = "date" name = "fecha_entrega"> <br>
+        <input type = "submit" value = "Submit">
+    </form>
+
+</body>
+</html>
